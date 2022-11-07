@@ -1,5 +1,5 @@
 <template>
-<h1>Home</h1>
+<h1>Project Management System</h1>
 <div class="home">
   <FilterNav @filterValue="current=$event" :current="current"></FilterNav>
   <div v-for="project in filteredProject" :key="project.id">
